@@ -1,0 +1,49 @@
+{
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "fb:tube_coral_trunk"
+		},
+		"fancy_trunk": {
+			"trunk_height": {
+				"base": 1,
+				"variance": 5,
+				"scale": 0.618
+			},
+			"trunk_width": 1,
+			"trunk_block": {
+				"states": {
+					"coral_color": "blue"
+				},
+				"name": "minecraft:coral_block"
+			},
+			"branches": {
+				"slope": 0.381,
+				"density": 1,
+				"min_altitude_factor": 0.2
+			},
+			"width_scale": 1,
+			"foliage_altitude_factor": 0.3
+		},
+		"fancy_canopy": {
+			"height": 1,
+			"radius": 1,
+			"leaf_block": {
+				"name": "minecraft:water"
+			}
+		},
+		"base_block": [
+			"fb:reef_stone"
+		],
+		"may_replace": [
+			"minecraft:water",
+			"fb:reef_stone"
+		],
+		"may_grow_through": [
+			"minecraft:water"
+		],
+		"may_grow_on": [
+			"minecraft:sand",
+			"fb:reef_stone"
+		]
+	}
+}
